@@ -2,16 +2,24 @@ name: apas
 channels:
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.10
   - pip:
     - numpy==1.23.5
     - pyyaml
     - seaborn
-    - scikit-learn==1.4.2
+    - scikit-learn
     - joblib==1.4.0
-    - tensorflow==2.16.1
-    - gurobipy==11.0.1
+    - tensorflow
+    - torch
+    - gurobipy
     - pyinterval
     - pandas
     - scipy
     - matplotlib
+    - ipykernel
+    - tqdm
+    - choix
+    - lime
+    - alibi
+   
+    
