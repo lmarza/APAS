@@ -9,7 +9,7 @@ Code for the ECAI 2024 paper: "Rigorous Probabilistic Guarantees for Robust Coun
    > Part of the code used to collect the results is strongly based on the one of Jiang et al. ("Formalising the Robustness of Counterfactual Explanations for Neural Networks", AAAI 2023) available [here](https://github.com/junqi-jiang/robust-ce-inn).
 
    
-APΔS is tested on Python 3.8+ and PyTorch 2.x. It can be installed easily into a conda environment. If you don't have anaconda, you can install it from here [miniconda](https://docs.conda.io/en/latest/miniconda.html).
+APΔS is tested on Python 3.10. It can be installed easily into a conda environment. If you don't have anaconda, you can install it from here [miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
 ```bash
 cd APAS
@@ -23,13 +23,13 @@ conda activate apas
 
 *NB: if you don't want to install APΔS using conda, you can check the YAML file and manually install all the dependencies.*
 
-## Folder organization
+## Repo's organization
 
 - APAS/exp_sec5: reports the scripts to collect the results on the different probabilistic guarantees for existing notions of
 model shifts, where we show that the Naturally-Occurring Model Shifts (NOMS) and Plausible Model Shifts (PMS) may capture very different
 model changes in general.
 
-- APAS/exp_sec7: reports the script to generate probabilistic robust CFXs using APΔS and also to compute the maximum Δ for a probabilistic Δ-robustness of a given CFX. In detail, inside the folder you will find:
+- APAS/exp_sec7: reports the script to generate probabilistic robust CFXs using APΔS and also to compute the maximum Δ for a probabilistic Δ-robustness of a given CFX. In detail, inside the folder, you will find the following:
   - /datasets: datasets used for experiments
   - dataset-name.ipynb: experiments for Section 7.2, 7.3
   - correctness_wilks.ipynb: experiments for 7.1
