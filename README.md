@@ -45,7 +45,7 @@ model changes in general.
 ## Reference
 If you use this code in your work, please kindly cite our paper:
 
-[Rigorous Probabilistic Guarantees for Robust Counterfactual Explanations]() 
+[Rigorous Probabilistic Guarantees for Robust Counterfactual Explanations](https://arxiv.org/pdf/2407.07482) 
 Marzari* L, Leofante* F, Cicalese F and Farinelli A.
 ```
 @incollection{marzari2024Rigorous,
